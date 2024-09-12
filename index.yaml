@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  flyimg:
+  - apiVersion: v2
+    appVersion: 1.4.9
+    created: "2024-09-12T07:14:25.468080305Z"
+    description: A Helm chart for Kubernetes for Flyimg app
+    digest: 4ae8afa8e8aea0dbbc2c080f1e45208306e69d4a30d9e675b23e5488fae131c1
+    name: flyimg
+    type: application
+    urls:
+    - https://github.com/flyimg/helm-charts/releases/download/flyimg-0.2.0/flyimg-0.2.0.tgz
+    version: 0.2.0
+generated: "2024-09-12T07:14:25.468089402Z"
