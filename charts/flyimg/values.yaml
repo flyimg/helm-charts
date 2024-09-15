@@ -77,3 +77,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# configuration values for Flyimg application
+parameters:
