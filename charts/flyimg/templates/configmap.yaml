@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flyimg-override-config
+data:
+  override-parameters.yml: |
+    {{- .Values.parameters | toYaml | nindent 4 }}

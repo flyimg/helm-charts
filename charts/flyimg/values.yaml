@@ -77,3 +77,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# To override the default parameters for Flyimg application, check https://github.com/flyimg/flyimg/blob/main/config/parameters.yml
+parameters:
