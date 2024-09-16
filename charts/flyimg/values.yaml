@@ -78,5 +78,5 @@ tolerations: []
 
 affinity: {}
 
-# configuration values for Flyimg application
+# To override the default parameters for Flyimg application, check https://github.com/flyimg/flyimg/blob/main/config/parameters.yml
 parameters:
