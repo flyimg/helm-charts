@@ -1,6 +1,10 @@
 apiVersion: v2
 name: flyimg
 description: A Helm chart for Kubernetes for Flyimg app
+maintainers:
+  - name: Sadok Ferjani
+    email: sadoknet@gmail.com
+    url: https://github.com/sadok-f
 
 # A chart can be either an 'application' or a 'library' chart.
 #
