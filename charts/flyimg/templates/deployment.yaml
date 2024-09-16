@@ -33,7 +33,7 @@ spec:
         command: ["/bin/sh", "-c"]
         args:
         - |
-          cp /var/www/html/config/parameters.yml /config/parameters.yml
+          cp -R /var/www/html/config/* /config/
         volumeMounts:
         - name: shared-config
           mountPath: /config
