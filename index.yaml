@@ -2,6 +2,27 @@ apiVersion: v1
 entries:
   flyimg:
   - apiVersion: v2
+    appVersion: 1.7.5
+    created: "2025-09-04T12:55:07.19800702Z"
+    description: A Helm chart for Kubernetes for Flyimg app
+    digest: 63a894e6857c28b3e657c1cec1de96c225d1fe7d07ab787c8e1eee986dc23b9a
+    keywords:
+    - flyimg
+    - image-resizing
+    - image-optimization
+    - avif
+    - mozjpeg
+    - webp
+    maintainers:
+    - email: sadoknet@gmail.com
+      name: sadok-f
+      url: https://github.com/sadok-f
+    name: flyimg
+    type: application
+    urls:
+    - https://github.com/flyimg/helm-charts/releases/download/flyimg-0.3.1/flyimg-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
     appVersion: 1.6.1
     created: "2024-11-22T10:14:26.653179741Z"
     description: A Helm chart for Kubernetes for Flyimg app
@@ -53,4 +74,4 @@ entries:
     urls:
     - https://github.com/flyimg/helm-charts/releases/download/flyimg-0.2.0/flyimg-0.2.0.tgz
     version: 0.2.0
-generated: "2024-11-22T10:14:26.653196022Z"
+generated: "2025-09-04T12:55:07.198062165Z"
